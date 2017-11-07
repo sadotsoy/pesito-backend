@@ -7,7 +7,7 @@
   "author": "Sadot Cortes <sadotcortes@scoorm.me>",
   "license": "MIT",
   "scripts": {
-    "run-dev": "nodemon app.js"
+    "run-dev": "nodemon app/app.js"
   },
   "private": false,
   "dependencies": {
