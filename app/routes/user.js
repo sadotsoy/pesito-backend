@@ -1,9 +1,15 @@
 let express = require('express');
 let router = express.Router();
 
-// HOMEPAGE - GET - localhost:3000/
 
 router.get('/', (req, res, next) => {
+  res.json([{
+    id: 1,
+    username: "Sam"
+  }, {
+    id:2,
+    username: "Sad"
+  }]);
 });
 
 module.exports = router;
